@@ -6,7 +6,15 @@
 
   <ItemGroup>
     <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\node.js" />
+    <Content Include="wwwroot\sketch - Copy.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="wwwroot\sketch.js" />
+    <Content Include="wwwroot\tree - Copy.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\tree.js" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
